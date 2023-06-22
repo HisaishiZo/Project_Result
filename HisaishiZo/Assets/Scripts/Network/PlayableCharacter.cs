@@ -35,8 +35,8 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
             _cc.Move(5 * data.direction * Runner.DeltaTime);
         }
 
-        Debug.DrawRay(transform.position, transform.forward*3, Color.red, 0.5f);
-        if (Physics.Raycast(transform.position, transform.forward, out raycastHit, 3f))
+        Debug.DrawRay(transform.position, transform.forward*3, Color.red, 10f);
+        if (Physics.Raycast(transform.position, transform.forward, out raycastHit, 10f))
         {
             IInteractable interactiveObject = raycastHit.collider.gameObject.GetComponent<IInteractable>();
             if (interactiveObject != null && Input.GetKeyDown(KeyCode.Space))
@@ -64,9 +64,11 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
             switch(raycastHit.collider.gameObject.layer)
             {
                 case (int)ERole.AI:
+                    StartCoroutine(Sturn());
                     break;
 
                 case (int)ERole.Hider:
+                    Kill_RPC();
                     break;
             }
         }
@@ -93,5 +95,16 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
     {
         hasScent = true;
         Application.Quit();
+    }
+
+    [Rpc(RpcSources.InputAuthority, RpcTargets.All)]
+    public void Kill_RPC(RpcInfo info = default)
+    {
+        Application.Quit();
+    }
+
+    public IEnumerator Sturn()
+    {
+        yield return new WaitForSeconds(5f);
     }
 }

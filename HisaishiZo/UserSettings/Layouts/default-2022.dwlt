@@ -23,7 +23,11 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
+<<<<<<< HEAD
+  m_Title: Game
+=======
   m_Title: Scene
+>>>>>>> main
   m_RootView: {fileID: 2}
 <<<<<<< Updated upstream
   m_MinSize: {x: 875, y: 300}
@@ -128,11 +132,15 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
+  controlID: 124
+=======
 <<<<<<< Updated upstream
   controlID: 18
 =======
   controlID: 228
 >>>>>>> Stashed changes
+>>>>>>> main
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,8 +169,12 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< HEAD
+  controlID: 27
+=======
 <<<<<<< Updated upstream
   controlID: 19
+>>>>>>> main
 --- !u!114 &7
 =======
   controlID: 158
@@ -293,11 +305,15 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
+<<<<<<< HEAD
+  controlID: 84
+=======
 <<<<<<< Updated upstream
   controlID: 63
 =======
   controlID: 167
 >>>>>>> Stashed changes
+>>>>>>> main
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -377,10 +393,14 @@ MonoBehaviour:
     y: 0
 <<<<<<< Updated upstream
     width: 427.33325
+<<<<<<< HEAD
+    height: 934
+=======
 =======
     width: 473.33325
 >>>>>>> Stashed changes
     height: 926
+>>>>>>> main
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
@@ -855,6 +875,11 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: -11.709141, y: 0.83101666, z: -4.5558004}
+    speed: 2
+    m_Value: {x: -11.709141, y: 0.83101666, z: -4.5558004}
+=======
 <<<<<<< Updated upstream
     m_Target: {x: 4.3783803, y: 1.3844314, z: 7.3407316}
     speed: 2
@@ -864,6 +889,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -2.9548302, y: 0.9698106, z: 5.9505925}
 >>>>>>> Stashed changes
+>>>>>>> main
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -909,6 +935,15 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
+    m_Target: {x: -0.54802823, y: 0.04379374, z: -0.028745566, w: -0.83483005}
+    speed: 2
+    m_Value: {x: -0.5480227, y: 0.0437933, z: -0.028745275, w: -0.8348216}
+  m_Size:
+    m_Target: 2.3731122
+    speed: 2
+    m_Value: 2.3731122
+=======
 <<<<<<< Updated upstream
     m_Target: {x: 0.03474672, y: 0.8975286, z: -0.071855426, w: 0.43373978}
     speed: 2
@@ -926,6 +961,7 @@ MonoBehaviour:
     speed: 2
     m_Value: 0.88055885
 >>>>>>> Stashed changes
+>>>>>>> main
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1184,6 +1220,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+      m_SelectedIDs: 10cbffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: facfffff4ad0ffff4ed7ffff1af2ffff08fbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Player(Clone)
+        m_OriginalName: Player(Clone)
+=======
 <<<<<<< Updated upstream
       m_SelectedIDs: 085c0000
       m_LastClickedID: 23560
@@ -1201,17 +1246,22 @@ MonoBehaviour:
         m_Name: House2
         m_OriginalName: House2
 >>>>>>> Stashed changes
+>>>>>>> main
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
+        m_UserData: -13552
+=======
 <<<<<<< Updated upstream
         m_UserData: 0
 =======
         m_UserData: -9552
 >>>>>>> Stashed changes
+>>>>>>> main
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
@@ -1274,8 +1324,12 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
+<<<<<<< HEAD
+    m_Folders: []
+=======
     m_Folders:
     - Assets/Resources/CubePeopleDemo
+>>>>>>> main
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1291,11 +1345,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 58590000
     m_LastClickedID: 22872
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000005c5e00005e5e0000605e0000625e0000645e0000665e0000
+=======
 <<<<<<< Updated upstream
     m_ExpandedIDs: 00000000925e0000945e0000
 =======
     m_ExpandedIDs: 00000000241f0000341f0000f8670000fa670000fc670000
 >>>>>>> Stashed changes
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1323,11 +1381,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 80.33334}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: ffffffff000000005c5e00005e5e0000605e0000625e0000645e0000665e0000
+=======
 <<<<<<< Updated upstream
     m_ExpandedIDs: ffffffff00000000925e0000945e0000be5e0000c25e0000c65e0000c85e0000d65e0000a85f0000b85f0000ba5f0000bc5f0000
 =======
     m_ExpandedIDs: ffffffff00000000241f0000341f0000841f0000f8670000fa670000
 >>>>>>> Stashed changes
+>>>>>>> main
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: PhotonEngineFusionManager
