@@ -408,6 +408,9 @@
 "Assets/Photon/Fusion/Scripts/Utilities/NetworkProjectUtilities.cs"
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
+"Assets/Player.cs"
+"Assets/Script/BasicSpawner.cs"
+"Assets/Script/NetworkInputData.cs"
 -langversion:9.0
 
 /deterministic
