@@ -996,8 +996,8 @@ GameObject:
   - component: {fileID: 1303836932362596045}
   - component: {fileID: 4488995169126847556}
   - component: {fileID: 5029729326058916318}
-  - component: {fileID: 4243356781433569198}
   - component: {fileID: 5752240153307327183}
+  - component: {fileID: 1932291461475662974}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1068,8 +1068,8 @@ MonoBehaviour:
   NestedObjects: []
   NetworkedBehaviours:
   - {fileID: 5029729326058916318}
-  - {fileID: 4243356781433569198}
   - {fileID: 5752240153307327183}
+  - {fileID: 1932291461475662974}
   SimulationBehaviours: []
 --- !u!143 &4488995169126847556
 CharacterController:
@@ -1133,19 +1133,6 @@ MonoBehaviour:
   rotationSpeed: 15
   _IsGrounded: 0
   _Velocity: {x: 0, y: 0, z: 0}
---- !u!114 &4243356781433569198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779718454806968109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d94fc65db685e364487cc0f496684e3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interpolationDataSource: 0
 --- !u!114 &5752240153307327183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1176,6 +1163,19 @@ MonoBehaviour:
     _hash: -814817977
   StateHashes: 000000002b1a167c7940695520e23b685928a8ce
   TriggerHashes: 00000000
+--- !u!114 &1932291461475662974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779718454806968109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f0e1bfb4fb744246952d67712a57eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interpolationDataSource: 0
 --- !u!1 &5876864847823764914
 GameObject:
   m_ObjectHideFlags: 0
