@@ -1161,8 +1161,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7594587318336819958}
   - component: {fileID: 2950632651283388882}
-  - component: {fileID: 6619234404169627450}
-  - component: {fileID: 5051400691867765511}
   - component: {fileID: 1303836932362596045}
   - component: {fileID: 4488995169126847556}
   - component: {fileID: 5029729326058916318}
@@ -1215,34 +1213,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6619234404169627450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779718454806968109}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8945a06b745019488038c3312083531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocity: 3
-  turnSpeed: 10
-  cam: {fileID: 0}
---- !u!114 &5051400691867765511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5779718454806968109}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3035519c475f2354e97ee1725eff3681, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  run: 0
 --- !u!114 &1303836932362596045
 MonoBehaviour:
   m_ObjectHideFlags: 0

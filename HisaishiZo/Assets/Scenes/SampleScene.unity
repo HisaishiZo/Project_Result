@@ -4181,6 +4181,14 @@ PrefabInstance:
       propertyPath: NetworkGuid.RawGuidValue.Array.data[1]
       value: 4479868134193475233
       objectReference: {fileID: 0}
+    - target: {fileID: 5752240153307327183, guid: 53af4e235d8d3be41825cb3cde7f9194, type: 3}
+      propertyPath: TotalWords
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5752240153307327183, guid: 53af4e235d8d3be41825cb3cde7f9194, type: 3}
+      propertyPath: SyncSettings
+      value: 127
+      objectReference: {fileID: 0}
     - target: {fileID: 5779718454806968109, guid: 53af4e235d8d3be41825cb3cde7f9194, type: 3}
       propertyPath: m_Name
       value: Player
