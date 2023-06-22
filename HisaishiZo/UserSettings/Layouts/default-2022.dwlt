@@ -8,11 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-<<<<<<< Updated upstream
-  m_EditorHideFlags: 1
-=======
   m_EditorHideFlags: 0
->>>>>>> Stashed changes
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -23,13 +19,9 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
-<<<<<<< Updated upstream
-  m_MinSize: {x: 875, y: 492}
-=======
   m_MinSize: {x: 875, y: 300}
->>>>>>> Stashed changes
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -128,11 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-<<<<<<< Updated upstream
-  controlID: 228
-=======
-  controlID: 181
->>>>>>> Stashed changes
+  controlID: 234
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,42 +145,8 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-<<<<<<< Updated upstream
-  controlID: 134
+  controlID: 111
 --- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 924.6667
-    height: 475.33334
-  m_MinSize: {x: 801, y: 271}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  - {fileID: 14}
-  - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &8
-=======
-  controlID: 182
---- !u!114 &7
->>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,24 +162,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 475.33334
-    width: 924.6667
-    height: 450.66666
-=======
     y: 0
     width: 924.6667
     height: 475.33334
->>>>>>> Stashed changes
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
-<<<<<<< Updated upstream
-  - {fileID: 18}
-  - {fileID: 15}
-  m_Selected: 1
-=======
   - {fileID: 15}
   - {fileID: 16}
   - {fileID: 17}
@@ -258,7 +201,6 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 18}
   m_Selected: 0
->>>>>>> Stashed changes
   m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -284,11 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-<<<<<<< Updated upstream
-  controlID: 167
-=======
-  controlID: 215
->>>>>>> Stashed changes
+  controlID: 177
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,11 +328,7 @@ MonoBehaviour:
     x: 0
     y: 72.66667
     width: 923.6667
-<<<<<<< Updated upstream
-    height: 458.33334
-=======
     height: 454.33334
->>>>>>> Stashed changes
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -523,15 +457,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 548
-    width: 923.6667
-    height: 429.66666
-=======
     y: 72.66667
     width: 923.6667
     height: 454.33334
->>>>>>> Stashed changes
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -572,7 +500,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.666666}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -819,11 +747,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-<<<<<<< Updated upstream
-      snapOffset: {x: 48, y: 10.666626}
-=======
       snapOffset: {x: 48, y: 24.666666}
->>>>>>> Stashed changes
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -842,15 +766,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< Updated upstream
-    m_Target: {x: -3.6727567, y: 1.4557419, z: 1.962373}
-    speed: 2
-    m_Value: {x: -3.6727567, y: 1.4557419, z: 1.962373}
-=======
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -3.7267296, y: 0.8607072, z: 5.661187}
->>>>>>> Stashed changes
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -896,23 +814,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< Updated upstream
-    m_Target: {x: -0.051591635, y: 0.9428052, z: -0.27970088, w: -0.1738879}
-    speed: 2
-    m_Value: {x: -0.051591303, y: 0.9427991, z: -0.2796991, w: -0.17388678}
-  m_Size:
-    m_Target: 7.981296
-    speed: 2
-    m_Value: 7.6376038
-=======
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: -0.14651501, y: -0.7812801, z: 0.19983402, w: -0.5728885}
+    m_Value: {x: -0.0027545157, y: 0.81077296, z: -0.58534193, w: -0.0038054741}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 0.71225
->>>>>>> Stashed changes
+    m_Value: 1.2247449
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1090,15 +998,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< Updated upstream
-    y: 552
-    width: 923.6667
-    height: 433.66666
-=======
     y: 548
     width: 923.6667
     height: 429.66666
->>>>>>> Stashed changes
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1146,37 +1048,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< Updated upstream
-      m_SelectedIDs: c06c0000
+      m_SelectedIDs: be790000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cf0ffff2ef0ffff92650000b2650000da650000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: House2
-        m_OriginalName: House2
-=======
-      m_SelectedIDs: f6f2ffff
-      m_LastClickedID: -3338
-      m_ExpandedIDs: f8f5ffffd261000008620000
+      m_ExpandedIDs: b27dffff2480ffff887600009c760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
->>>>>>> Stashed changes
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-<<<<<<< Updated upstream
-        m_UserData: -4446
-=======
         m_UserData: 0
->>>>>>> Stashed changes
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -1231,11 +1119,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< Updated upstream
-    - Assets/May Genko/Retro Tracks by May Genko unity ver
-=======
-    - Assets/Scripts/Manager
->>>>>>> Stashed changes
+    - Assets/Resources/Special FX Shaders
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1251,11 +1135,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 58590000
     m_LastClickedID: 22872
-<<<<<<< Updated upstream
-    m_ExpandedIDs: 00000000241f0000341f0000f8670000fa670000fc670000
-=======
-    m_ExpandedIDs: 00000000865b000000ca9a3b
->>>>>>> Stashed changes
+    m_ExpandedIDs: 00000000346f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1283,11 +1163,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< Updated upstream
-    m_ExpandedIDs: ffffffff00000000241f0000341f0000f8670000fc670000b86c0000bc6c0000
-=======
-    m_ExpandedIDs: ffffffff00000000865b00008e5b000000ca9a3b
->>>>>>> Stashed changes
+    m_ExpandedIDs: ffffffff00000000306f0000346f0000bc79000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
