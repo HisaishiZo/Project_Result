@@ -413,9 +413,21 @@
 "Assets/Resources/CubePeopleDemo/Scripts/EightDirectionMovement.cs"
 "Assets/Resources/CubePeopleDemo/Scripts/FollowTarget.cs"
 "Assets/Resources/Special FX Shaders/Scripts/LineRenderControl.cs"
+<<<<<<< Updated upstream
 "Assets/Scripts/Network/BasicSpawner.cs"
 "Assets/Scripts/Network/NetworkInputData.cs"
 "Assets/Scripts/Network/Player.cs"
+=======
+"Assets/Scripts/ERole.cs"
+"Assets/Scripts/IInteractable.cs"
+"Assets/Scripts/Manager/PhotonEngineFusionManager.cs"
+"Assets/Scripts/Manager/Singleton.cs"
+"Assets/Scripts/Network/NetworkInputData.cs"
+"Assets/Scripts/Network/PlayableCharacter.cs"
+"Assets/Scripts/PlayerCamera.cs"
+"Assets/Scripts/PlayerCameraController.cs"
+"Assets/Scripts/SoundManager.cs"
+>>>>>>> Stashed changes
 -langversion:9.0
 
 /deterministic
