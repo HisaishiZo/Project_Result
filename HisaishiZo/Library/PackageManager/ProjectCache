@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638230460525256808
+=======
+      ticks: 638230221917405792
+>>>>>>> Stashed changes
     m_Hash: 829683097
   m_LockFileStatus:
     m_FilePath: C:/UNITY/Project_Result/HisaishiZo/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638230460525266776
+=======
+      ticks: 638230221917418398
+>>>>>>> Stashed changes
     m_Hash: 672890750
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
