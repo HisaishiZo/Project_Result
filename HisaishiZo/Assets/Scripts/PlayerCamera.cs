@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    private GameObject objectToParent; // 오브젝트를 자식으로 만들 카메라를 참조할 변수
+    // 오브젝트를 자식으로 만들 카메라를 참조할 변수
+    private GameObject objectToParent; 
 
     private void Start()
     {

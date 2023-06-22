@@ -368,10 +368,12 @@
 "Assets/Resources/Special FX Shaders/Scripts/LineRenderControl.cs"
 "Assets/Scripts/ERole.cs"
 "Assets/Scripts/IInteractable.cs"
+"Assets/Scripts/Manager/GameManager.cs"
 "Assets/Scripts/Manager/PhotonEngineFusionManager.cs"
 "Assets/Scripts/Manager/Singleton.cs"
 "Assets/Scripts/Network/NetworkInputData.cs"
 "Assets/Scripts/Network/PlayableCharacter.cs"
+"Assets/Scripts/PlayerCamera.cs"
 "Assets/Scripts/PlayerCameraController.cs"
 -langversion:9.0
 

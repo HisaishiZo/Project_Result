@@ -52,8 +52,7 @@ namespace Manager
             if (runner.IsServer)
             {
                 // Create a unique position for the player
-                Vector3 spawnPosition = new Vector3((playerRef.RawEncoded % runner.Config.Simulation.DefaultPlayers) * 3, 1, 0);
-                NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, playerRef);
+                NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, new Vector3(0f, 2f, 0f), Quaternion.identity, playerRef);
                 networkPlayerObject.gameObject.GetComponent<PlayableCharacter>().SetRole(ERole.Seeker);
                 // Keep track of the player avatars so we can remove it when they disconnect
                 _spawnedCharacters.Add(playerRef, networkPlayerObject);
@@ -62,6 +61,12 @@ namespace Manager
             {
                 // Client is Hider that apllied 'Hider' already;
             }
+
+            if (_spawnedCharacters.Count == 4)
+            {
+                GameManager.Instance.GameStart();
+            }
+
         }
 
         public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
