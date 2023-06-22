@@ -20,6 +20,10 @@ public class Player : NetworkBehaviour
         {
             data.direction.Normalize();
             _cc.Move(5 * data.direction * Runner.DeltaTime);
+        }
+
+        if (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
+        {
             animator.SetBool("Run", true);
         }
         else
