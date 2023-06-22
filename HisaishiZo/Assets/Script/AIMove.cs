@@ -80,7 +80,7 @@ public class AIMove : MonoBehaviour
         {
             time += Time.deltaTime;
 
-             rigidbody.velocity = (new Vector3(1f, 0f, 1f) * speed);
+             //rigidbody.velocity = (new Vector3(1f, 0f, 1f) * speed);
 
             // probability = 20%
             if (isRotate == false)
