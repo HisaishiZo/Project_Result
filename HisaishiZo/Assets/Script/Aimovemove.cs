@@ -7,7 +7,7 @@ public class Aimovemove : MonoBehaviour
 {
     public Transform pr;
     private float randx, randz;
-    private bool isMove;
+    public bool isMove;
     private float timer, interval;
     Vector3 target;
     // Start is called before the first frame update
