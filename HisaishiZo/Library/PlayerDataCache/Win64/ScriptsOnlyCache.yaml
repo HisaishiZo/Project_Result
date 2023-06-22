@@ -2,27 +2,38 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
     - ControllerPrototype
+    - CubePeople.AnimationController
+    - CubePeople.EightDirectionMovement
     - NetworkCharacterControllerPrototype
     - Player
     - PlayerAOIPrototype
     Assembly-CSharp.dll:
     - BasicSpawner
-    - ControllerPrototype
+    - CubePeople.AnimationController
+    - CubePeople.EightDirectionMovement
     - NetworkCharacterControllerPrototype
     - Player
-    - PlayerAOIPrototype
     Fusion.Realtime.dll:
     - Fusion.Photon.Realtime.PhotonAppSettings
     Fusion.Runtime.dll:
+    - Fusion.NetworkMecanimAnimator
     - Fusion.NetworkObject
+    - Fusion.NetworkPrefabSourceUnityResource
     - Fusion.NetworkPrefabSourceUnityStatic
     - Fusion.NetworkProjectConfigAsset
     - Fusion.NetworkRigidbody
     - Fusion.NetworkRigidbody2D
     - Fusion.NetworkTransform
-    - Fusion.RunnerVisibilityNodes
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -33,6 +44,7 @@ ScriptsOnlyBuild:
     Fusion.Runtime:
     - Fusion.Accuracy
     - Fusion.AccuracyDefaults
+    - Fusion.AnimatorSyncSettings
     - Fusion.HeapConfiguration
     - Fusion.InterpolatedErrorCorrectionSettings
     - Fusion.InterpolationConfiguration
@@ -76,22 +88,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 5266}
+      Script: {instanceID: 5144}
     - Class: 114
-      Script: {instanceID: 5738}
+      Script: {instanceID: 5270}
     - Class: 114
-      Script: {instanceID: 5760}
+      Script: {instanceID: 5740}
+    - Class: 114
+      Script: {instanceID: 5742}
     - Class: 114
       Script: {instanceID: 5762}
     - Class: 114
@@ -99,22 +123,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 5778}
+      Script: {instanceID: 5768}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 5770}
     - Class: 114
-      Script: {instanceID: 7004}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 7748}
+      Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 23652}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 23840}
+      Script: {instanceID: 7756}
+    - Class: 114
+      Script: {instanceID: 25904}
+    - Class: 114
+      Script: {instanceID: 25920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -705,6 +735,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: bdbf0ec23a997c9c568e97a8af4d2658
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BasicSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1149,6 +1185,12 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: e06372535d844cc7dd1a9250db99a009
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 53c11d2565f6e39392cad5ebe15e0d8f
     assemblyName: Assembly-CSharp
     namespaceName: Fusion
@@ -1251,17 +1293,35 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bdbf0ec23a997c9c568e97a8af4d2658
+      Hash: d8718b35a194df26c25758757fbd610b
     assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BasicSpawner
+    namespaceName: CubePeople
+    className: AnimationController
   - hash:
       serializedVersion: 2
-      Hash: e06372535d844cc7dd1a9250db99a009
+      Hash: f2e857f9536f71a43cba573458380d02
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Player
+    className: LineRenderControl
+  - hash:
+      serializedVersion: 2
+      Hash: 41a7678ace36878d21d9d66ff24d3309
+    assemblyName: Assembly-CSharp
+    namespaceName: CubePeople
+    className: CubePeopleTraffic
+  - hash:
+      serializedVersion: 2
+      Hash: cf13e6ba62cf459da142d75001ce29df
+    assemblyName: Assembly-CSharp
+    namespaceName: CubePeople
+    className: EightDirectionMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 85c5193dff796e308dbc111a5c300434
+    assemblyName: Assembly-CSharp
+    namespaceName: CubePeople
+    className: FollowTarget
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "D:/unity_study/\uBE4C\uB4DC/HisaishiZo/HisaishiZo.exe"
+  playerPath: D:/unity_study/Project_Result/HisaishiZo_Build/HisaishiZo.exe
