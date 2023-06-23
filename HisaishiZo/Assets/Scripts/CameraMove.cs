@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstPersonView : MonoBehaviour
+public class CameraMove : MonoBehaviour
 {
     private float xRotate, yRotate, xRotateMove, yRotateMove;
-    public float rotateSpeed = 500.0f;
+    private float rotateSpeed = 1500.0f;
 
     void Update()
     {

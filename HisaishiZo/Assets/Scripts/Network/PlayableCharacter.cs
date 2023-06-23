@@ -5,6 +5,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Manager;
+using UnityEngine.UIElements;
 
 
 public class PlayableCharacter : NetworkBehaviour, IInteractable
@@ -14,6 +15,7 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
     //private NetworkMecanimAnimator _ma;
     private Animator animator;
     private RaycastHit raycastHit;
+    private ParticleSystem particleSystem;
     [SerializeField] private LayerMask[] layerMasks;
 
     public ERole characterRole = ERole.Hider;
@@ -25,14 +27,34 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
         _cc = GetComponent<NetworkCharacterControllerPrototype>();
         //_ma = GetComponent<NetworkMecanimAnimator>();
         animator = GetComponent<Animator>();
+        if(characterRole == ERole.Hider)
+        {
+            particleSystem = GetComponent<ParticleSystem>();
+            particleSystem.Play(); gameObject.layer = 7;
+        }
+        else
+        {
+            gameObject.layer = 8;
+        }
     }
-
+    private float xRotate, yRotate, xRotateMove, yRotateMove;
+    private float rotateSpeed = 1500.0f;
     public override void FixedUpdateNetwork()
     {
+        if (Input.GetMouseButton(0)) // 클릭한 경우
+        {
+            yRotateMove = Input.GetAxis("Mouse X") * Time.deltaTime * rotateSpeed;
+
+            yRotate = transform.eulerAngles.y + yRotateMove;
+
+            transform.eulerAngles = new Vector3(0, yRotate, 0);
+        }
+
         if (GetInput(out NetworkInputData data))
         {
-            data.direction.Normalize();
-            _cc.Move(5 * data.direction * Runner.DeltaTime);
+            // data.direction.Normalize();
+            // _cc.Move(5 * data.direction * Runner.DeltaTime);
+            _cc.Move(new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical")) * 10f);
         }
 
         Debug.DrawRay(transform.position, transform.forward*3, Color.red, 10f);
@@ -70,6 +92,7 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
     {
         if (myRole == ERole.Seeker)
         {
+            animator.SetTrigger("Atk");
             switch(raycastHit.collider.gameObject.layer)
             {
                 case (int)ERole.AI:
