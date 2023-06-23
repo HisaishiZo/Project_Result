@@ -9,6 +9,8 @@ namespace CubePeople
 
         public float velocity = 5;
         public float turnSpeed = 10;
+        public float start = 0;
+        public float current = 0;
 
         Vector2 input;
         float angle;
@@ -31,6 +33,27 @@ namespace CubePeople
         void Update()
         {
             GetInput();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                start = Time.time;
+                velocity = 0;
+            }
+            current = Time.time;
+            if (start < current - 1f)
+            {
+                velocity = 5;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                start = Time.time;
+                velocity = 0;
+            }
+            current = Time.time;
+            if (start < current - 1f)
+            {
+                velocity = 5;
+            }
 
             if (Mathf.Abs(input.x) < 1 && Mathf.Abs(input.y) < 1) return;
 

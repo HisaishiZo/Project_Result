@@ -1033,6 +1033,7 @@ GameObject:
   - component: {fileID: 8913319520630464881}
   - component: {fileID: 2535135695431619820}
   - component: {fileID: 8056806479579142832}
+  - component: {fileID: 934818491678691352}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1288,8 +1289,21 @@ MonoBehaviour:
     _value: 0
     _inverse: 0
     _hash: -814817977
-  StateHashes: 000000002b1a167c7940695520e23b685928a8ce
-  TriggerHashes: 00000000
+  StateHashes: 000000002b1a167c7940695520e23b685928a8ce2e4927686de7146b63f1c43b1a3b579d
+  TriggerHashes: 000000002e49276863f1c43b
+--- !u!114 &934818491678691352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5779718454806968109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a39f24235249e142b16ff01c3faec77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 2000
 --- !u!1 &5876864847823764914
 GameObject:
   m_ObjectHideFlags: 0

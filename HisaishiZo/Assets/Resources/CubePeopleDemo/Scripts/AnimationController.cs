@@ -6,32 +6,30 @@ namespace CubePeople
 {
     public class AnimationController : MonoBehaviour
     {
+
         Animator anim;
         public bool run;
+        public Aimovemove aimove;
 
         void Start()
         {
             anim = GetComponent<Animator>();
-            if (run == true)
-            {
-                run = false;
-            }
+            if (run) run = false;
         }
 
 
         void Update()
         {
 
-            if (Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0)
+            if (aimove.isMove == false)
             {
                 run = false;
             }
             else
             {
                 run = true;
-            }
-
-            anim.SetBool("Run", run);
+            }           
+            anim.SetBool("Run", run);          
         }
     }
 }
