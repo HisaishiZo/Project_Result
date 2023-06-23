@@ -53,6 +53,15 @@ public class PlayableCharacter : NetworkBehaviour, IInteractable
         {
             animator.SetBool("Run", false);
         }
+
+        if (characterRole == ERole.Seeker && Input.GetKey(KeyCode.Space))
+        {
+            foreach(var item in PhotonEngineFusionManager.Instance._spawnedCharacters.Keys)
+            {
+                PhotonEngineFusionManager.Instance._spawnedCharacters.Remove(item);
+                break;
+            }
+        }
     }
 
     public void SetRole(ERole role) => characterRole = role;
